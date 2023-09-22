@@ -6,7 +6,7 @@ Used Microsoft Sentinel, PowerShell Scripts, Log Analytics Workspaces &amp; Virt
 
 # Index
 
-Creating a Virtual Machine in Azure  
+Creating a Virtual Machine 
 - Configuring the Virtual Machine  
 - Administrator Control  
 - Networking  
