@@ -45,14 +45,61 @@ Login to your azure account and create a new virtual machine.
 ## Configuring the Virtual Machine
 •	Create a name for the resource group.<br>
 •	Name your virtual machine.<br>
-•	Set the region (You can let it be default).
-
+•	Set the region (You can let it be default).<br>
 •	Change availability options to “No infrastructure redundancy required”.<br>
 •	Set Security Type to “Standard”.<br>
 •	We are using Windows 10 Pro x64 as the image file.<br>
 •	Size used for this project is the default.<br>
 
 <p align="center">
-  <img src="https://github.com/mehakashik/Mapping-Live-Cyber-Attacks-Using-Azure-Sentinel/blob/main/Images/1.png">
+  <img width="460" height="460" src="https://github.com/mehakashik/Mapping-Live-Cyber-Attacks-Using-Azure-Sentinel/blob/main/Images/1.png">
 </p>
 
+## Administrator Control
+•	Set username and password. (Do not make it easy to brute force).<br>
+•	Set Public inbound ports to “Allow selected ports”.<br>
+•	Set Select Inbound ports to “RDP (3389)”.<br>
+•	Confirm your eligibility.<br>
+•	Then click next and move on to “Networking” leaving “Disks” page at default selections.<br>
+
+<p align="center">
+  <img width="460" height="460" src="https://github.com/mehakashik/Mapping-Live-Cyber-Attacks-Using-Azure-Sentinel/blob/main/Images/2.png">
+</p>
+
+## Networking
+•	Set NIC network security group to “Advanced” and create a new inbound rule and replace the old one. <br>
+
+<p align="center">
+  <img width="460" height="460" src="https://github.com/mehakashik/Mapping-Live-Cyber-Attacks-Using-Azure-Sentinel/blob/main/Images/3.png">
+</p>
+
+•	Set destination port range to “ * ” and set priority to a lower number like 100. <br>
+•	Name the rule anything you want. <br>
+
+<p align="center">
+  <img src="https://github.com/mehakashik/Mapping-Live-Cyber-Attacks-Using-Azure-Sentinel/blob/main/Images/4.png">
+</p>
+
+•	Confirm everything and create the virtual machine. <br>
+
+# Creating & configuring a Log Analytics Workspace
+Establish a connection between the virtual machine logs and Azure Logs Analytics, while also configuring a custom log to identify its source. <br>
+•	Search for log analytics workspace on the search bar.<br>
+•	Create a new resource group and name the instance (you can name them as you wish).<br>
+•	The region can be set to the default selection.<br>
+•	Proceed to review and create the log analytics wokspace.<br>
+
+<p align="center">
+  <img width="460" height="460" src="https://github.com/mehakashik/Mapping-Live-Cyber-Attacks-Using-Azure-Sentinel/blob/main/Images/5.png">
+</p>
+
+# Windows Defender for Cloud
+We will enable the ability to gather logs from the virtual machine into the log analytics workspace by configuring Windows Defender for Cloud. <br>
+•	Search for Windows Defender for Cloud in the Search Bar. <br>
+•	Navigate to Environment Settings and select the log analytics workspace that your created. <br>
+
+<p align="center">
+  <img width="460" height="460" src="https://github.com/mehakashik/Mapping-Live-Cyber-Attacks-Using-Azure-Sentinel/blob/main/Images/6.png">
+</p>
+
+## Defender Plans
