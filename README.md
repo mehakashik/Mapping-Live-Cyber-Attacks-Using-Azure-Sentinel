@@ -52,5 +52,7 @@ Login to your azure account and create a new virtual machine.
 •	We are using Windows 10 Pro x64 as the image file.<br>
 •	Size used for this project is the default.<br>
 
-![image](https://github.com/mehakashik/Mapping-Live-Cyber-Attacks-Using-Azure-Sentinel/assets/72126806/b79b8eff-1bb7-43e7-989d-8e5fdb3370d6)
+<p align="center">
+  <img width="460" height="300" src="[https://picsum.photos/460/300](https://github.com/mehakashik/Mapping-Live-Cyber-Attacks-Using-Azure-Sentinel/blob/main/Images/1.png)https://github.com/mehakashik/Mapping-Live-Cyber-Attacks-Using-Azure-Sentinel/blob/main/Images/1.png">
+</p>
 
