@@ -236,6 +236,22 @@ To view the map with the geolocation data of the attempted logon attempts change
   <img src="https://github.com/mehakashik/Mapping-Live-Cyber-Attacks-Using-Azure-Sentinel/blob/main/Images/25.png">
 </p>
 
+Make sure to set “Size by” under layout settings to “event_count” and “Metric Label” to “label”. To better visualize the magnitude of attempts from different parts of the world. <br>
+We will now leave the script and query running to continue to receive data about attackers trying to get access to our honeypot virtual machine. After leaving it running for a few hours we can see that there have been attempts from Mexico, Netherlands and Russia have joined in on the fun as shown below.
+
+<p align="center">
+  <img src="https://github.com/mehakashik/Mapping-Live-Cyber-Attacks-Using-Azure-Sentinel/blob/main/Images/26.png">
+</p>
+
+# Takeaways
+•	As long as there is a device that is publicly routable there exists bots/adversaries that will try to get access to it. <br>
+•	Avoid default usernames as those were among the most guessed in the failed attempts (eg: root, admin). <br>
+•	It’s best practice to use strong passwords, Multi Factor Authentication and restrict access to RDP. <br>
+
+# Reference and Gratitude
+Gratitude is extended to [Josh Madakor](https://www.youtube.com/watch?v=RoZeVbbZ0o0&t=547s&ab_channel=JoshMadakor) for their valuable resources that made this possible. This document was a walkthrough of my experience with it. 
+
+
 
 
 
