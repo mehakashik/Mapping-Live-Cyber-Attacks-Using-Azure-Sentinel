@@ -53,6 +53,6 @@ Login to your azure account and create a new virtual machine.
 •	Size used for this project is the default.<br>
 
 <p align="center">
-  <img src="[https://picsum.photos/460/300](https://github.com/mehakashik/Mapping-Live-Cyber-Attacks-Using-Azure-Sentinel/blob/main/Images/1.png)https://github.com/mehakashik/Mapping-Live-Cyber-Attacks-Using-Azure-Sentinel/blob/main/Images/1.png">
+  <img src="https://github.com/mehakashik/Mapping-Live-Cyber-Attacks-Using-Azure-Sentinel/blob/main/Images/1.png">
 </p>
 
