@@ -249,7 +249,7 @@ We will now leave the script and query running to continue to receive data about
 •	It’s best practice to use strong passwords, Multi Factor Authentication and restrict access to RDP. <br>
 
 # Reference and Gratitude
-Gratitude is extended to [Josh Madakor](https://www.youtube.com/watch?v=RoZeVbbZ0o0&t=547s&ab_channel=JoshMadakor) for their valuable resources that made this possible. This document was a walkthrough of my experience with it. 
+Gratitude is extended to [Josh Madakor](https://www.youtube.com/@JoshMadakor) for their valuable resources that made this possible. This document was a walkthrough of my experience with it. 
 
 
 
